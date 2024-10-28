@@ -222,7 +222,7 @@ by manipulating the `treesit-auto-recipe-list' variable."
     ,(make-treesit-auto-recipe
       :lang 'json
       :ts-mode 'json-ts-mode
-      :remap 'js-json-mode
+      :remap '(js-json-mode json-mode)
       :url "https://github.com/tree-sitter/tree-sitter-json"
       :ext "\\.json\\'")
     ,(make-treesit-auto-recipe
